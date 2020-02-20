@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="Radius" format="dimension"/>
+        <attr name="type">
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RoundCornerImageView">
+        <attr name="my_radius" format="dimension" />
+        <attr name="my_type" format="enum">
+            <enum name="circle" value="0"/>
+            <enum name="roundRect" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RCImageView">
+        <attr name="borderRadius" format="dimension"/>
+        <attr name="type">
+            <enum name="normal" value="-1"/>
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+        </attr>
+        <attr name="borderWidth" format="dimension" />
+        <attr name="borderColor" format="integer" />
+    </declare-styleable>
+</resources>
